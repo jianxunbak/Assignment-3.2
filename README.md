@@ -1,4 +1,4 @@
-# Insert Lesson Title
+# Java : Operators & Control Flow
 
 ## Dependencies
 
@@ -10,11 +10,14 @@ Refer to the following markdown file for the respective sections of the class:
 ## Lesson Objectives
 
 Learners will understand:
-- Insert the knowledge to be acquired
+- The four category of operators (arithmetic, assignment, comparison, logical).
+- The use case of `if-else` statement.
+- The use case of `switch` statement.
 
 Learners will be able to:
-- Insert the skillset to be acquired
-
+- Write java statements with operators.
+- Write `if-else` statement.
+- Write `switch` statement.
 
 ## Lesson Plan
 

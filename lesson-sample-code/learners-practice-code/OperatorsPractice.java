@@ -7,7 +7,7 @@ public class OperatorsPractice {
         //2. Multiply 10 to num1;
         //3. Print the new value of num1
         //4. Create a new variable called num2 and assign the value of 17
-        //5. Print the remainder between num1 and num2
+        //5. Print the remainder of num1 when divided by num2
 
         //Relational and logical operators practice:
         //Determine the output:

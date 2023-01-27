@@ -30,3 +30,7 @@ Open Conditionals.java and code along with the students. Make sure to discuss wh
 Afterward, have students try the ConditionalPractice.java file to test their ability to solve problems using conditional statements.
 
 ---
+
+## Part 3 - Ternary Operator
+
+Ternary operator is common among several programming languages. It a shorthand for `if-else` statement.

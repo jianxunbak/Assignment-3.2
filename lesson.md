@@ -77,6 +77,8 @@ System.out.println("isTrue: " + isTrue);
 System.out.println("!isTrue: " + !isTrue);
 ```
 
+Observe the output of the above code. What is the difference between pre and post increment/decrement?
+
 #### Pre vs Post Increment/Decrement:
 
 Pre-increment/decrement operators increment/decrement the value of the variable **before** returning the value.

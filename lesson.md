@@ -2,9 +2,10 @@
 
 Operators are symbols that perform operations on variables and values.
 
-There are four basic types of operators:
+The basic types of operators:
 
 - Arithmetic
+- Unary
 - Assignment
 - Relational
 - Logical / Conditional
@@ -41,6 +42,59 @@ System.out.println("a - b = " + (a - b));
 System.out.println("a * b = " + (a * b));
 System.out.println("a / b = " + (a / b));
 System.out.println("b % a = " + (b % a));
+```
+
+### Unary Operators
+
+| Operator | Description | Example |
+| :------: | :---------: | :-----: |
+|    +     |    Plus     |   +x    |
+|    -     |    Minus    |   -x    |
+|    ++    |  Increment  |   ++x   |
+|    --    |  Decrement  |   --x   |
+|    !     |     NOT     |   !x    |
+
+```java
+int unaryPlus = +10;
+int unaryMinus = -10;
+System.out.println("unaryPlus: " + unaryPlus);
+System.out.println("unaryMinus: " + unaryMinus);
+
+int preIncrement = ++unaryPlus;
+System.out.println("preIncrement: " + preIncrement);
+
+int preDecrement = --unaryMinus;
+System.out.println("preDecrement: " + preDecrement);
+
+int postIncrement = unaryPlus++;
+System.out.println("postIncrement: " + postIncrement);
+
+int postDecrement = unaryMinus--;
+System.out.println("postDecrement: " + postDecrement);
+
+boolean isTrue = true;
+System.out.println("isTrue: " + isTrue);
+System.out.println("!isTrue: " + !isTrue);
+```
+
+#### Pre vs Post Increment/Decrement:
+
+Pre-increment/decrement operators increment/decrement the value of the variable **before** returning the value.
+
+Post-increment/decrement operators increment/decrement the value of the variable **after** returning the value.
+
+```java
+int x = 10;
+int y = 10;
+
+System.out.println("x: " + x);
+System.out.println("y: " + y);
+
+System.out.println("x++: " + x++);
+System.out.println("++y: " + ++y);
+
+System.out.println("x: " + x);
+System.out.println("y: " + y);
 ```
 
 ### Assignment and Compound Assignment Operators

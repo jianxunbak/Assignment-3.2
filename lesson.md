@@ -378,14 +378,20 @@ for (int i = 0; i < 10; i++) {
 
 Recall in our previous lesson, we used `System.console().readLine()` to read user input. Using `if else`, we can check if a user name is entered correctly.
 
-```java
-String userName = System.console().readLine("Enter your user name: ");
-System.out.println("userName: " + userName);
+Create file `UserInputActivity.java`.
 
-if(userName.equals("admin")) {
-  System.out.println("😊 Welcome Admin");
-} else {
-  System.out.println("😡 Unauthorized user!");
+```java
+public class UserInputActivity {
+  public static void main(String[] args) {
+    String userName = System.console().readLine("Enter your user name: ");
+    System.out.println("userName: " + userName);
+
+    if (userName.equals("admin")) {
+      System.out.println("😊 Welcome Admin");
+    } else {
+      System.out.println("😡 Unauthorized user!");
+    }
+  }
 }
 ```
 
